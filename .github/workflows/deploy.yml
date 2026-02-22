@@ -3,7 +3,7 @@ name: Deploy
 on:
   pull_request:
     types:
-      - assigned
+      - closed
     branches:
       - master
 
@@ -12,6 +12,7 @@ env:
 
 jobs:
   deploy:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
 
     steps:
