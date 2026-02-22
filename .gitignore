@@ -40,4 +40,4 @@ __screenshots__/
 
 # env
 .env
-.env.d.ts
+env.d.ts
