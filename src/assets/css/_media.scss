@@ -1,0 +1,20 @@
+@media (max-width: 769px) {
+	/*=========== HEADER ==========*/
+	#header {
+		padding: var(--small-gap);
+	}
+}
+@media (max-width: 498px) {
+	/*======== BASE CONFIG =========*/
+	.btn {
+		width: 100%;
+	}
+	#app {
+		padding-bottom: 60px;
+	}
+
+	/*========= COMPONENTS ===========*/
+	.posts {
+		grid-template-columns: 1fr;
+	}
+}
