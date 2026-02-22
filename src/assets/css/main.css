@@ -430,8 +430,10 @@ input[type=search]:focus::-webkit-search-cancel-button {
   width: 100%;
   border-radius: var(--small-gap);
   background-color: var(--light-grey);
-  height: 200px;
+  aspect-ratio: 2/1;
+  max-height: 350px;
   margin-bottom: var(--base-gap);
+  object-fit: cover;
 }
 .post-card .post-card__title {
   margin-bottom: var(--small-gap);
