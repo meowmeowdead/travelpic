@@ -408,7 +408,7 @@ input[type=search]:focus::-webkit-search-cancel-button {
 .posts {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   grid-gap: var(--base-gap);
 }
 
@@ -430,7 +430,7 @@ input[type=search]:focus::-webkit-search-cancel-button {
   width: 100%;
   border-radius: var(--small-gap);
   background-color: var(--light-grey);
-  height: 150px;
+  height: 200px;
   margin-bottom: var(--base-gap);
 }
 .post-card .post-card__title {
@@ -636,10 +636,6 @@ input[type=search]:focus::-webkit-search-cancel-button {
   }
   #app {
     padding-bottom: 60px;
-  }
-  /*========= COMPONENTS ===========*/
-  .posts {
-    grid-template-columns: 1fr;
   }
 }
 
